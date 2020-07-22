@@ -58,7 +58,7 @@ spec:
       value: "true"
     - name: DISTRIBUTION
       value: "eks"
-  image: docker.pkg.github.com/thehunt33r/sonobuoy-plugins/kube-bench:0.3.1
+  image: thehunt33r/kube-bench:0.3.1
   name: plugin
   resources: {}
   volumeMounts:
